@@ -113,15 +113,4 @@ def binary_search (target, N):
         else: # down condition
             high = mid-1
 
-print(binary_search(0, list(range(100))))
-print(binary_search(99,list(range(100))))
-#test
-# test = 2**14
-# ans = []
-# for i in range(test):
-#     ans.append(binary_search(i,list(range(test)) ))
 
-# if (ans == list(range(test))):
-#     print('test successed')
-# else:
-#     print('test failed')
